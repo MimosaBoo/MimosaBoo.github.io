@@ -10,7 +10,8 @@
     .w3-auto{max-width:100%!important;}
     .vidsize{max-width:100%!important;}
     .flex-container {display:none ;}
-    .Textresponcive {font-size: 1.00rem;}}
+    .Textresponcive {font-size: 1.00rem;}
+    .solovideo{width:350;}}
 
 
 @media (min-width:641px) {
@@ -20,7 +21,8 @@
     .main{margin-left:0!important;margin-right:0!important;}
     .w3-auto{max-width:100%;}
     .vidsize{max-width:75%;}
-    .Textresponcive {font-size: 1.00rem;}}
+    .Textresponcive {font-size: 1.00rem;}
+	.solovideo{width:640px; height:360px;}}
 
 
 @media (min-width:961px){
@@ -30,14 +32,16 @@
     .main{margin-left:0!important;margin-right:0!important;}
     .w3-auto{max-width:100%;}
     .vidsize{max-width:75%;}
-    .Textresponcive {font-size: 1.50rem;}}
+    .Textresponcive {font-size: 1.50rem;}
+	.solovideo{width:854px; height:480px;}}
 
 @media (min-width:1280px){
         .container{max-width:1140px;}
         .w3-main{margin-left: 300px!important;}
         .main { margin-left: 300px;}
         .vidsize{max-width:75%;}
-        .Textresponcive {font-size: 1.75rem;}}
+        .Textresponcive {font-size: 1.75rem;}
+        .solovideo{width:960px; height:540px;}}
 
  
 
@@ -163,4 +167,20 @@ hr {
         text-align: center;
  }
 
+
+	h3 {
+        font-weight : bold !important;
+        }
+
+/* About */
+    @media (min-width:961px) and (min-width:1280px)
+        {
+            .about {margin: 0px 200px 0px 200px;}
+        }
+
+    .bgblack
+        {
+        background-color: black; !important;
+        width: 75%;
+        }
  
