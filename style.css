@@ -2,7 +2,7 @@
 
 /* responcive */
 
-@media (min-width:320px)
+@media (max-width:767px;)
     .container{max-width:540px;}
     .w3-sidebar.w3-collapse{display:none;}
     .w3-main{margin-left:0!important;margin-right:0!important;}
@@ -14,19 +14,8 @@
     .solovideo{width:350;}}
 
 
-@media (min-width:641px) {
-    .container{max-width:720px;}
-    .w3-sidebar.w3-collapse{display:none;}
-    .w3-main{margin-left:0!important;margin-right:0!important;}
-    .main{margin-left:0!important;margin-right:0!important;}
-    .w3-auto{max-width:100%;}
-    .vidsize{max-width:75%;}
-    .Textresponcive {font-size: 1.00rem;}
-	.solovideo{width:640px; height:360px;}}
-
-
-@media (min-width:961px){
-    .container{max-width:992px;}
+@media (min-width:768px){
+    .container{max-width:1023px;}
     .w3-sidebar.w3-collapse{display:none;}
     .w3-main{margin-left:0!important;margin-right:0!important;}
     .main{margin-left:0!important;margin-right:0!important;}
@@ -35,7 +24,7 @@
     .Textresponcive {font-size: 1.50rem;}
 	.solovideo{width:854px; height:480px;}}
 
-@media (min-width:1280px){
+@media (min-width:1024px){
         .container{max-width:1140px;}
         .w3-main{margin-left: 300px!important;}
         .main { margin-left: 300px;}
