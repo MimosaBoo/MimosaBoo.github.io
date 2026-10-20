@@ -236,10 +236,7 @@ body {
 
  
 
-/* --------------------------------- --------------------------------- */
-/* --------------------------------- --------------------------------- */
-/* --------------------------------- --------------------------------- */
-
+/* ---------------------------- ---------------------------- */
 
 /* --- --- --- PAGE : animation.HTML --- --- --- */
  
@@ -322,9 +319,7 @@ body {
 }
 
 
-/* --------------------------------- --------------------------------- */
-/* --------------------------------- --------------------------------- */
-/* --------------------------------- --------------------------------- */
+/* ---------------------------- ---------------------------- */
 
 
 /* --- --- --- PAGE : INDEX.HTML --- --- --- */
@@ -365,12 +360,9 @@ body {
   font-weight: 700;
 }
 
+ 
+/* ---------------------------- ---------------------------- */
 
- 
-/* --------------------------------- --------------------------------- */
-/* --------------------------------- --------------------------------- */
-/* --------------------------------- --------------------------------- */
- 
 
 /* Smartphone responcive */
 @media (max-width: 768px) {
@@ -394,8 +386,6 @@ body {
                   }
 
 /* --------------------- Nav header --------------------- */
-
-
 
 .header nav {
   display: flex;
@@ -439,47 +429,41 @@ body {
   margin-top: 0;
 }
  
-
-
-
-                  .header {
-                    padding: 1.25rem;
-                  }
+.header {
+padding: 1.25rem;
+  }
        
-                  .portrait {
-                    /*grid-column: 1;
-                    grid-row: 1 / 4;*/
-                    width: 64px;
-                    margin: 0;
-                  }
+.portrait {
+  width: 64px;
+  margin: 0;
+  }
 
-                  .nav-links a {
-                    padding: 0.5rem;
-                    font-size: 1rem;
-                  }
+.nav-links a {
+  padding: 0.5rem;
+  font-size: 1rem;
+}
                   
-                  .animation-content h1, .animation-project {
-                    min-width: 0;
-                    padding: 1rem;
-                  }
+.animation-content h1, .animation-project {
+  min-width: 0;
+  padding: 1rem;
+ }
 
-                  .animation-project h2 {
-                    overflow-wrap: anywhere;
-                  }
-
-                  .video-frame, .video-frame iframe, .video-frame video, .animation-project > video {
-                    max-width: 100%;
-                  }
-
-                /* Format telephone, une seule colone image */
-                       .illustration-gallery {columns: 1;}
+.animation-project h2 {
+  overflow-wrap: anywhere;
 }
 
-/* --------------------------------- --------------------------------- */
-/* --------------------------------- --------------------------------- */
-/* --------------------------------- --------------------------------- */
+.video-frame, .video-frame iframe, 
+  .video-frame video, 
+  .animation-project > video {
+  max-width: 100%;
+}
 
-  
+/* Format telephone, une seule colone image */
+  .illustration-gallery {columns: 1;}
+}
+
+/* -------------------------- -------------------------- */
+
 /* Ordinateur */
 @media (min-width: 769px) {
 
@@ -489,8 +473,6 @@ body {
 
   .header nav {
     display: block;
-   /* flex-direction: column;
-    align-items: center;*/
     text-align: center;
     position: fixed;    
     }
@@ -536,7 +518,4 @@ body {
   }
 
 }
-/* --------------------------------- --------------------------------- */
-/* --------------------------------- --------------------------------- */
-/* --------------------------------- --------------------------------- */
-
+/* ---------------------------- ---------------------------- */
