@@ -1,0 +1,37 @@
+/* --------------------------------- --------------------------------- */
+
+/* --- --- --- PAGE : liens.HTML --- --- --- */
+  .linktree {
+  width: min(100%, 520px);
+  margin: 0 auto;
+  text-align: center;
+}
+ 
+.linktree-links {
+  display: grid;
+  gap: 1rem;
+}
+
+.linktree-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
+  min-height: 3.5rem;
+  padding: 0.8rem 1rem;
+  border: 2px solid black;
+  border-radius: 6px;
+  color: black;
+  font-weight: 700;
+  text-decoration: none;
+  transition: background-color 180ms ease, color 180ms ease;
+}
+
+/* survole du curseur */
+.linktree-button:hover,
+.linktree-button:focus-visible {
+  background: #71b100;
+  color: #fff;
+}
+
+ 

@@ -115,11 +115,6 @@ body {
   background: #fff;
 }
 
-.content h1 {
-  margin-top: 0;
-  font-size: clamp(1.8rem, 4vw, 2.5rem);
-}
-
 .introduction {
   max-width: 70ch;
   color: #555a64;
@@ -146,43 +141,6 @@ body {
   font-size: 1.25rem;
 }
 
-/* AJOUTS POUR LA PAGE ILLUSTRATIONS */
-
-/* Galerie d'illustrations */
-.illustration-gallery {
-  columns: 3;
-  /*column-gap: 1rem;
-  margin-top: 2rem;*/
-}
-
-.illustration-gallery img {
-  display: block;
-  width: 100%;
-  height: auto;
-  break-inside: avoid;
-}
-
-
-/* pour marge et espace images */
-.illustration-content {
-  padding: 0;
-}
-
-.illustration-content h1 {
-  margin: 1.5rem;
-}
-
-.illustration-gallery {
-  column-gap: 0;
-  margin-top: 0;
-}
-
-.illustration-gallery img {
-  display: block;
-  width: 100%;
-  margin: 0;
-  border-radius: 0;
-}
 
 /* Texte un peu plus grand */
 body {
@@ -193,176 +151,11 @@ body {
   font-size: 1.25rem;
 }
 
-/* ajout de la page linktree */
-  .linktree {
-  width: min(100%, 520px);
-  margin: 0 auto;
-  text-align: center;
-}
-
  
-
-.linktree h1 {
-  margin: 1rem 0 0.4rem;
-}
-
-.linktree-links {
-  display: grid;
-  gap: 1rem;
-}
-
-.linktree-button {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 0.75rem;
-  min-height: 3.5rem;
-  padding: 0.8rem 1rem;
-  border: 2px solid black;
-  border-radius: 6px;
-
-  color: black;
-  font-weight: 700;
-  text-decoration: none;
-  transition: background-color 180ms ease, color 180ms ease;
-}
-
-/* survole du curseur */
-.linktree-button:hover,
-.linktree-button:focus-visible {
-  background: #71b100;
-  color: #fff;
-}
-
+/* --------------------------------- --------------------------------- */
+/* --------------------------------- --------------------------------- */
+/* --------------------------------- --------------------------------- */
  
-
-/* ---------------------------- ---------------------------- */
-
-/* --- --- --- PAGE : animation.HTML --- --- --- */
- 
-.animation-content {
-  padding: clamp(1.25rem, 4vw, 3rem);
-}
-
-.animation-projects {
-  display: grid;
-  gap: 2rem;
-  margin-top: 2rem;
-}
-
-.animation-project {
-  padding-bottom: 1.5rem;
-  border-bottom: 1px solid #ddd;
-}
-
-.animation-project h2 {
-  margin-top: 0;
-  font-size: clamp(1.2rem, 2.5vw, 1.6rem);
-}
-
-.animation-project p {
-  color: #555a64;
-  line-height: 1.7;
-}
-
-.video-frame {
-  position: relative;
-  width: 100%;
-  aspect-ratio: 16 / 9;
-  overflow: hidden;
-  background: #20222a;
-}
-
-.video-frame iframe,
-.video-frame video,
-.animation-project > video {
-  display: block;
-  width: 100%;
-  aspect-ratio: 16 / 9;
-  border: 0;
-  background: #20222a;
-}
-
-/* espace entre les videos */ 
-.animation-content {
-  padding: clamp(1.25rem, 4vw, 3rem);
-  background: transparent;
-}
-
-.animation-content h1 {
-  margin: 0;
-  padding: clamp(1.25rem, 4vw, 3rem);
-  background: #fff;
-}
-
-.animation-projects {
-  display: grid;
-  gap: 1rem;
-  margin-top: 1rem;
-}
-
-.animation-project {
-  padding: clamp(1.25rem, 3vw, 2rem);
-  border: 0;
-  border-radius: 6px;
-  background: #fff;
-}
-
-.animation-project h2 {
-  margin-top: 0;
-  font-size: clamp(1.2rem, 2.5vw, 1.6rem);
-}
-
-.animation-project p {
-  color: #555a64;
-  line-height: 1.7;
-}
-
-
-/* ---------------------------- ---------------------------- */
-
-
-/* --- --- --- PAGE : INDEX.HTML --- --- --- */
-/* Page d'acceuil lien vers les autres pages */
-.projects {
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 1.25rem;
-  margin-top: 2rem;
-}
-
-.project-card {
-  overflow: hidden;
-  border-radius: 5px;
-  background: #f0f1f3;
-  color: inherit;
-  text-decoration: none;
-}
-
-.project-card img {
-  display: block;
-  width: 100%;
-  aspect-ratio: 4 / 3;
-  object-fit: cover;
-  transition: opacity 1080ms ease;
-}
-
-/* gris au survol */
-.project-card:hover img,
-.project-card:focus-visible img {
-  opacity: 0.8;
-}
-
-/* titre des card */
-.project-card span {
-  display: block;
-  padding: 1rem;
-  font-weight: 700;
-}
-
- 
-/* ---------------------------- ---------------------------- */
-
 
 /* Smartphone responcive */
 @media (max-width: 768px) {
@@ -386,6 +179,8 @@ body {
                   }
 
 /* --------------------- Nav header --------------------- */
+
+
 
 .header nav {
   display: flex;
@@ -428,53 +223,37 @@ body {
   gap: 0.25rem;
   margin-top: 0;
 }
- 
-.header {
-padding: 1.25rem;
-  }
+
+                  .header {
+                    padding: 1.25rem;
+                  }
        
-.portrait {
-  width: 64px;
-  margin: 0;
-  }
+                  .portrait {
+                    width: 64px;
+                    margin: 0;
+                  }
 
-.nav-links a {
-  padding: 0.5rem;
-  font-size: 1rem;
-}
+                  .nav-links a {
+                    padding: 0.5rem;
+                    font-size: 1rem;
+                  }
                   
-.animation-content h1, .animation-project {
-  min-width: 0;
-  padding: 1rem;
- }
-
-.animation-project h2 {
-  overflow-wrap: anywhere;
+        
 }
 
-.video-frame, .video-frame iframe, 
-  .video-frame video, 
-  .animation-project > video {
-  max-width: 100%;
-}
+/* --------------------------------- --------------------------------- */
+/* --------------------------------- --------------------------------- */
+/* --------------------------------- --------------------------------- */
 
-/* Format telephone, une seule colone image */
-  .illustration-gallery {columns: 1;}
-}
-
-/* -------------------------- -------------------------- */
-
+  
 /* Ordinateur */
 @media (min-width: 769px) {
-
-  .projects {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
 
   .header nav {
     display: block;
     text-align: center;
-    position: fixed;    
+    position: fixed;
+    margin-top: 1.5em;
     }
 
   .identite {
@@ -485,7 +264,7 @@ padding: 1.25rem;
   text-decoration: none;
     }
 
-  .nav-links, .social-links {
+  .nav-links {
     justify-content: center;
     }
 
@@ -518,4 +297,7 @@ padding: 1.25rem;
   }
 
 }
-/* ---------------------------- ---------------------------- */
+/* --------------------------------- --------------------------------- */
+/* --------------------------------- --------------------------------- */
+/* --------------------------------- --------------------------------- */
+

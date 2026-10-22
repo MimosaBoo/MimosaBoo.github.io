@@ -1,0 +1,98 @@
+
+
+/* --------------------------------- --------------------------------- */
+/* --------------------------------- --------------------------------- */
+/* --------------------------------- --------------------------------- */
+
+
+/* --- --- --- PAGE : animation.HTML --- --- --- */
+
+/* Toute la largeur */
+.content {
+  padding: 0;
+  background: transparent;
+}
+ 
+section {
+  display: grid;
+  gap: 1rem;
+  /*margin-top: 1rem;*/
+}
+
+article {
+  padding: 1.5rem;
+  border-radius: 6px;
+  background: #fff;
+}
+
+h2 {
+  margin-top: 0;
+  font-size: 1.5rem;
+}
+
+.video-frame {
+  position: relative;
+  overflow: hidden;
+  background: #20222a;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+}
+
+
+.video-frame iframe,
+.video-frame video {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+article > video {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 9;
+  background: #20222a;
+}
+
+
+.video-verticale {
+  /*
+
+.video-frame2{
+  position: relative;
+  overflow: hidden;
+  background: #20222a;
+}
+.video-frame2 {
+  width: min(100%, 420px);
+  aspect-ratio: 9 / 16;
+  margin-inline: auto;
+}
+
+.video-frame iframe,
+.video-frame video,
+.video-frame2 iframe,
+.video-frame2 video{
+  display: block;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+  */
+
+}
+
+
+/* Smartphone responcive */
+@media (max-width: 768px) {
+ /*
+  .animation-content, article {
+    min-width: 0; 
+  }*/
+ 
+  .v/*ideo-frame, .video-frame iframe, 
+  .video-frame video, article > video {
+    max-width: 100%;
+  }*/
+}

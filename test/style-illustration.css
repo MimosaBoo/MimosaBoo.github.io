@@ -1,0 +1,44 @@
+
+/* --------------------------------- --------------------------------- */
+/* --------------------------------- --------------------------------- */
+/* --------------------------------- --------------------------------- */
+
+
+/* --- --- --- PAGE : illustration.HTML --- --- --- */
+
+/* Galerie d'illustrations */
+.illustration-gallery {
+  columns: 3;
+}
+
+.illustration-gallery img {
+  display: block;
+  width: 100%;
+  height: auto;
+  break-inside: avoid;
+}
+
+
+/* pour marge et espace images */
+.content {
+  padding: 0;
+}
+
+.illustration-gallery {
+  column-gap: 0;
+  margin-top: 0;
+}
+
+.illustration-gallery img {
+  display: block;
+  width: 100%;
+  margin: 0;
+  border-radius: 0;
+}
+
+
+/* Smartphone responcive */
+@media (max-width: 768px) {
+  /* Format telephone, une seule colone image */
+  .illustration-gallery {columns: 1;}
+}
