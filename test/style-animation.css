@@ -55,34 +55,18 @@ article > video {
   background: #20222a;
 }
 
-
 .video-verticale {
-  /*
-
-.video-frame2{
-  position: relative;
-  overflow: hidden;
-  background: #20222a;
-}
-.video-frame2 {
-  width: min(100%, 420px);
+  width: 70%;
   aspect-ratio: 9 / 16;
-  margin-inline: auto;
+  margin: auto;
 }
 
-.video-frame iframe,
-.video-frame video,
-.video-frame2 iframe,
-.video-frame2 video{
+.video-verticale iframe{
   display: block;
   width: 100%;
-  height: 100%;
+  aspect-ratio: 9 / 16;
   border: 0;
 }
-  */
-
-}
-
 
 /* Smartphone responcive */
 @media (max-width: 768px) {
