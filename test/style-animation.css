@@ -56,7 +56,7 @@ article > video {
 }
 
 .video-verticale {
-  width: 70%;
+  width: 50%;
   aspect-ratio: 9 / 16;
   margin: auto;
 }
@@ -75,7 +75,7 @@ article > video {
     min-width: 0; 
   }*/
  
-  .v/*ideo-frame, .video-frame iframe, 
+  /*.video-frame, .video-frame iframe, 
   .video-frame video, article > video {
     max-width: 100%;
   }*/
