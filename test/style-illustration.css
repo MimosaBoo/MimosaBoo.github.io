@@ -3,7 +3,6 @@
 /* --------------------------------- --------------------------------- */
 /* --------------------------------- --------------------------------- */
 
-
 /* --- --- --- PAGE : illustration.HTML --- --- --- */
 
 /* Galerie d'illustrations */
@@ -17,7 +16,6 @@
   height: auto;
   break-inside: avoid;
 }
-
 
 /* pour marge et espace images */
 .content {
@@ -35,7 +33,6 @@
   margin: 0;
   border-radius: 0;
 }
-
 
 /* Smartphone responcive */
 @media (max-width: 768px) {
