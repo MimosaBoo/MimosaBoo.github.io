@@ -65,7 +65,7 @@ article > video {
 }
 
 .video-verticale {
-  width: 50%;
+  width: 45%;
   aspect-ratio: 9 / 16;
   margin: auto;
 }
@@ -79,13 +79,6 @@ article > video {
 
 /* Smartphone responcive */
 @media (max-width: 768px) {
- /*
-  .animation-content, article {
-    min-width: 0; 
-  }*/
- 
-  /*.video-frame, .video-frame iframe, 
-  .video-frame video, article > video {
-    max-width: 100%;
-  }*/
+  .video-verticale {
+  width: 70%;}
 }
