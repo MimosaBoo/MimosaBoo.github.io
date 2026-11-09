@@ -1,0 +1,52 @@
+
+
+/* --------------------------------- --------------------------------- */
+/* --------------------------------- --------------------------------- */
+/* --------------------------------- --------------------------------- */
+
+
+/* --- --- --- PAGE : INDEX.HTML --- --- --- */
+/* Page d'acceuil lien vers les autres pages */
+.home {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.25rem;
+  margin-top: 2rem;
+}
+
+.card {
+  overflow: hidden;
+  border-radius: 5px;
+  background: #f0f1f3;
+  color: inherit;
+  text-decoration: none;
+}
+
+.card img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  transition: opacity 1080ms ease;
+}
+
+/* gris au survol */
+.card:hover img,
+.card:focus-visible img {
+  opacity: 0.5;
+}
+
+/* titre des card */
+.card span {
+  display: block;
+  padding: 1rem;
+  font-weight: 700;
+}
+
+
+/* Ordinateur */
+@media (min-width: 769px) {
+  .home {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
